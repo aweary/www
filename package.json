@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "node build && now --static --public"
+    "start": "open app.html",
+    "build": "node build",
+    "deploy": "surge . brandondail.com"
   },
   "dependencies": {
     "html-minifier": "^3.5.1"
