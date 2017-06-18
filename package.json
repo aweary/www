@@ -6,7 +6,7 @@
   "scripts": {
     "start": "open app.html",
     "build": "node build",
-    "deploy": "surge . brandondail.com"
+    "deploy": "yarn build && now --static"
   },
   "dependencies": {
     "html-minifier": "^3.5.1"
